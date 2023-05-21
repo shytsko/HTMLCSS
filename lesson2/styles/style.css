@@ -1,0 +1,38 @@
+.main_head {
+  font-family: fantasy;
+  color: blue;
+  background-color: cornflowerblue;
+  background-image: url("../img/HTML5_logo.png");
+  background-size: contain;
+  background-position: top;
+}
+
+.head {
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-style: italic;
+  color: chartreuse;
+  background-color: brown;
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+  color: chocolate;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-indent: 1.5cm;
+}
+
+.list {
+  list-style-type: square;
+}
+
+.ok_item {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.text a {
+  font-size: 18px;
+  color: red;
+}
