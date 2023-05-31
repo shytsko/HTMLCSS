@@ -70,6 +70,7 @@ img {
 .content {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 163px;
 }
 
 .content__text {
