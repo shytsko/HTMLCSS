@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: bisque;
+}
+
+.head {
+}
+
+.head__wrap {
+  background-color: blueviolet;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.cont {
+}
+
+.cont__wrap {
+  position: relative;
+  background-color: rgb(98, 94, 102);
+  height: 30vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  min-height: 150px;
+  background-color: cadetblue;
+  position: absolute;
+  right: 0;
+  top: -75px;
+  z-index: 1;
+  overflow: hidden;
+}
