@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1140px;
+  /* box-sizing: border-box; */
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222222;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left__icons {
+  display: flex;
+  align-items: flex-end;
+  gap: 41px;
+  margin: 18px 0 19px 1px;
+}
+
+.right__icons {
+  display: flex;
+  gap: 33px;
+  margin: 26px 10px 20px 0;
+}
+
+.top {
+  background-color: #f1e4e6;
+}
+
+.top__wrap {
+  display: flex;
+  gap: 63px;
+  overflow: hidden;
+}
+
+.top__img {
+  margin-left: -225px;
+}
+
+.brand {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  align-self: baseline;
+  margin-top: 290px;
+}
+
+.brand__first__line {
+  font-style: normal;
+  color: #222222;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.brand__second__line {
+  font-style: normal;
+  color: #222222;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.brand__highlight {
+  color: #f16d7f;
+}
