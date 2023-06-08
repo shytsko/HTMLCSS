@@ -175,6 +175,10 @@ img {
   gap: 30px;
 }
 
+.product__card {
+  background-color: #f8f8f8;
+}
+
 .product__card__text {
   display: flex;
   flex-direction: column;
