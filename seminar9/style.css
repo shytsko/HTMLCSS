@@ -1,0 +1,174 @@
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+  margin: auto;
+  width: 1200px;
+}
+
+.menu__link:hover {
+  color: red;
+}
+
+.menu__link:active {
+  color: green;
+}
+
+.menu__list:first-child .menu__link {
+  text-decoration: underline;
+}
+
+.menu__list:last-child .menu__link {
+  font-weight: bold;
+}
+
+.menu__list:nth-child(3) .menu__link {
+  background-color: orange;
+}
+
+.product {
+  width: 250px;
+  padding: 24px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.product__img {
+  background-color: forestgreen;
+  height: 150px;
+}
+
+.product__new::after {
+  content: "new";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  color: white;
+}
+
+.product__sale::before {
+  content: "sale";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: orange;
+  color: white;
+}
+
+.svg__icons {
+  width: 400px;
+  height: 400px;
+}
+
+.svg__icons:hover path {
+  fill: purple;
+}
+
+.svg__icons:active path {
+  fill: yellow;
+}
+
+.task4__item {
+  width: 150px;
+  height: 86px;
+  background-color: forestgreen;
+  border: 1px solid #000;
+  transition: transform 1s;
+}
+
+.task4__item_1:hover {
+  transform: translateX(50px);
+}
+
+.task4__item_2:hover {
+  transform: scale(2);
+}
+
+.task4__item_3:hover {
+  transform: rotate(60deg);
+}
+
+.task5__content {
+  /* margin-top: 200px; */
+  margin-left: 200px;
+  position: relative;
+}
+
+.task5__item {
+  position: absolute;
+  top: 50px;
+  width: 150px;
+  height: 60px;
+  background-color: aqua;
+}
+
+.task5__item_2 {
+  transform: rotate(45deg);
+}
+
+.task5__item_3 {
+  transform: rotate(90deg);
+}
+
+.task5__item_4 {
+  transform: rotate(135deg);
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-family: sans-serif;
+  font-size: 18px;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) 3s
+    both;
+}
