@@ -207,6 +207,43 @@ img {
   background-color: #f8f8f8;
 }
 
+.product__img {
+  position: relative;
+}
+
+.product__img__filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3a3838;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__img__filter:hover {
+  opacity: 0.86;
+}
+
+.product__add-cart-button {
+  width: 139px;
+  height: 44px;
+  border: solid 1px #fff;
+  background: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 0 14px;
+}
+
 .product__card__text {
   display: flex;
   flex-direction: column;
@@ -248,6 +285,11 @@ img {
   color: #f26376;
   padding: 15px 39px 14px;
   border: 1px solid #ff6a6a;
+}
+
+.browse__all__btn:hover {
+  color: #fff;
+  background-color: #f16d7f;
 }
 
 .advantages {
@@ -395,6 +437,18 @@ img {
   display: flex;
   justify-content: space-between;
   width: 148px;
+}
+
+.footer__social__link:hover .footer__social__icon {
+  background-color: #f16d7f;
+}
+
+.footer__social__link:hover .footer__social__icon path {
+  fill: #fff;
+}
+
+.footer__social__icon {
+  background-color: #fff;
 }
 
 @media (max-width: 1024px) {
