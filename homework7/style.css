@@ -17,7 +17,6 @@ img {
 
 .container {
   max-width: 1140px;
-  /* box-sizing: border-box; */
   padding: 0 40px;
   margin: 0 auto;
 }
@@ -44,12 +43,16 @@ img {
   margin: 26px 10px 20px 0;
 }
 
-.menu__link {
+.main__menu__link {
   position: relative;
 }
 
+.main__menu__link:hover .main__menu {
+  display: block;
+}
+
 .main__menu {
-  /* display: none; */
+  display: none;
   position: absolute;
   background-color: #fff;
   min-width: 232px;
@@ -61,7 +64,6 @@ img {
 .menu__content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .menu__title {
@@ -70,6 +72,13 @@ img {
   font-size: 14px;
   color: #000000;
   padding-bottom: 4px;
+}
+
+.menu__section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 20px;
 }
 
 .menu__section__title {
@@ -90,7 +99,12 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  padding-left: 22px;
   color: #6f6e6e;
+}
+
+.menu__link:hover {
+  background-color: #eee;
 }
 
 .cart__link {
