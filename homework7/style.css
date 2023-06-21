@@ -152,7 +152,7 @@ img {
   padding-left: 16px;
   align-self: baseline;
   margin-top: 290px;
-  margin-right: 90px;
+  margin-right: 96px;
   min-width: 377px;
 }
 
@@ -232,7 +232,7 @@ img {
 
 .products {
   padding-top: 31px;
-  padding-bottom: 60px;
+  padding-bottom: 95px;
   background-color: #fff;
 }
 
@@ -260,7 +260,7 @@ img {
 }
 
 .products__list {
-  padding: 48px 0;
+  padding: 46px 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -312,7 +312,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 24px 16px;
+  padding: 24px 16px 20px;
   gap: 16px;
 }
 
@@ -415,6 +415,10 @@ img {
   max-width: 360px;
 }
 
+.subscribe__photo {
+  padding-right: 18px;
+}
+
 .subscribe__invite__text {
   font-style: normal;
   font-weight: 400;
@@ -432,8 +436,7 @@ img {
 .subscribe__form {
   display: grid;
   justify-items: center;
-  gap: 32px;
-  margin-top: 150px;
+  margin-top: 154px;
   min-width: 557px;
 }
 
@@ -494,6 +497,8 @@ img {
   font-size: 16px;
   color: #fbfbfb;
   margin-left: 5px;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social__links {
@@ -525,21 +530,26 @@ img {
   }
 
   .right__icons {
-    margin-right: 16px;
+    margin-right: 24px;
+    gap: 24px;
   }
 
   .main__menu {
     right: 0;
   }
 
+  .account__link {
+    padding-right: 18px;
+  }
+
   .top__img {
     max-height: 368px;
-    margin-left: -32px;
+    margin-left: -14px;
   }
 
   .brand {
-    margin-top: 138px;
-    margin-right: 18px;
+    margin-top: 136px;
+    margin-right: 14px;
     min-width: 283px;
   }
 
@@ -560,7 +570,7 @@ img {
 
   .products {
     padding-top: 45px;
-    padding-bottom: 65px;
+    padding-bottom: 60px;
   }
 
   .products__list__title {
@@ -649,7 +659,7 @@ img {
   }
 
   .catalogs {
-    padding: 64px 0;
+    padding: 58px 0 64px;
   }
 
   .calogs__wrap {
@@ -668,24 +678,25 @@ img {
 
   .products {
     padding-top: 0;
-    padding-bottom: 85px;
+    padding-bottom: 93px;
   }
 
   .products__list {
     padding-top: 65px;
     padding-bottom: 41px;
     grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .advantages__list {
-    padding: 48px 6px 81px;
-    gap: 47px;
+    padding: 44px 6px 84px;
+    gap: 40px;
   }
 
   .subscribe__wrap {
-    padding-top: 64px;
+    padding-top: 61px;
     padding-bottom: 110px;
-    gap: 59px;
+    gap: 65px;
   }
 
   .subscribe__invite {
@@ -723,7 +734,7 @@ img {
   }
 
   .footer__wrap {
-    height: 114px;
+    height: 91px;
     flex-direction: column-reverse;
     padding-top: 43px;
     padding-bottom: 9px;
