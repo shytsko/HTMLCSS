@@ -359,6 +359,10 @@ img {
   background-color: #222224;
 }
 
+.advantages__title {
+  display: none;
+}
+
 .advantages__list {
   padding: 104px 0;
   display: grid;
