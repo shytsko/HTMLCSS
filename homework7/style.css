@@ -401,7 +401,7 @@ img {
 }
 
 .subscribe {
-  background: no-repeat url(img/subscribe_bg_big.png) center;
+  background: no-repeat url(img/subscribe_bg_big.webp) center;
   background-size: cover;
   min-height: 448px;
 }
