@@ -198,19 +198,19 @@ img {
 }
 
 .catalog__women {
-  background-image: url("img/catalog_bg_women.svg");
+  background-image: url("img/catalog_bg_women.webp");
 }
 
 .catalog__men {
-  background-image: url("img/catalog_bg_men.svg");
+  background-image: url("img/catalog_bg_men.webp");
 }
 
 .catalog__kids {
-  background-image: url("img/catalog_bg_kids.svg");
+  background-image: url("img/catalog_bg_kids.webp");
 }
 
 .catalog__accesories {
-  background-image: url("img/catalog_bg_accesories.svg");
+  background-image: url("img/catalog_bg_accesories.webp");
   grid-column: span 3;
 }
 
